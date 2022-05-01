@@ -4,8 +4,6 @@
  */
 
 
-for (let i = 0; i < 100; i++) {
-    if (i % 7 === 0) {
+for (let i = 0; i < 100; i += 7) {
         console.log(i);
-    }
 }
