@@ -1,5 +1,5 @@
 /**
- * Mofify the code below so that "result"
+ * Modify the code below so that "result"
  * will be a string of length "stringLength", 
  * containing only "symbol"
  * 
@@ -10,7 +10,8 @@ let result = "";
 let symbol = "+";
 let stringLength = 10;
 
-for (let i = 0; i < ; i++) {
+for (let i = 0; i < stringLength; i++) {
+    result += symbol;
 }
 
 console.log(result);
