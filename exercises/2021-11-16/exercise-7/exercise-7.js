@@ -13,8 +13,14 @@
  * output: 3, 6, 9, 12, 15, 18, 21, ...
  */
 
-for (let i = 1; i <= 5; i++) {
-  for (let j = 1; j < 100; j++) {
+ for (let i = 1; i <= 5; i++) {
+  for (let j = 1; j <= 100; j++) {
     console.log(i * j);
+  }
+}
+
+for (let x = 1; x <= 5; x++) {
+  for (let y = x; y <= 100; y+=x) {
+    console.log(y);
   }
 }
